@@ -145,7 +145,7 @@ def trajcrafter_demo(opts):
                 )
                 i2v_steps = gr.Slider(
                     minimum=1,
-                    maximum=50,
+                    maximum=100,
                     step=1,
                     elem_id="i2v_steps",
                     label="Sampling steps",
